@@ -1,0 +1,33 @@
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#00c9ff, #92fe9d);
+}
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.filterData {
+  min-width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.filterGoLeft,
+.filterGoRight {
+  cursor: pointer;
+}
