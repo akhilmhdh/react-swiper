@@ -32,6 +32,7 @@ class App extends Component{
       }
     })
   }
+
   render(){
     return (
       <div className="App">
@@ -60,7 +61,7 @@ class App extends Component{
                   return(
                     <div className="swiper-slide" key={index}>
                       <div>{el}</div>
-                      <div class="imgCardHolder">
+                      <div className="imgCardHolder">
                         <img src={`https://picsum.photos/id/102${index}/300/300.jpg`} alt="images"/>
                       </div>
                       <div>Demo Purposes</div>
@@ -72,10 +73,10 @@ class App extends Component{
               })}
             </div>
             {/* -- If we need pagination -- */}
-            <div class="swiper-pagination"></div>
+            <div className="swiper-pagination"></div>
             {/* -- If we need navigation buttons -- */}
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div className="swiper-button-prev"></div>
+            <div className="swiper-button-next"></div>
           </div>
         </div>
       </div>
